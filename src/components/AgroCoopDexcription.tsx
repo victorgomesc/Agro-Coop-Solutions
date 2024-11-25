@@ -4,8 +4,8 @@ const AgroCoopDexcription = () => {
   return (
     <div className='w-screen flex items-center justify-center mt-12'>
     <div className='justify-start w-4/5'>
-        <h1 className='text-green900 text-4xl text-left'>Quem somos?</h1>
-        <div className='text-black text-2xl'>
+        <h1 className='text-green900 text-4xl text-left font-bold'>Quem somos?</h1>
+        <div className='text-black text-2xl mt-10 text-justify'>
           <p>A Agro Coop Solutions é uma startup criada por alunos de curssos de graduação da
             Universidade Federal do Ceara, mas precisamente no campus de quixada, que tem como 
             objetivo ajudar o desenvolvimento de cooperativas rurais atraves de soluções tecnologicas. 
@@ -20,7 +20,34 @@ const AgroCoopDexcription = () => {
              Federal do Ceara, O nosso CEO Gabriel Braga aluno do cursso de engenharia da computação, 
              o Tech Lead Victor Gomes da Costa aluno de engenharia de computação, o nosso QA Matheus Moreira 
              também aluno de engenharia da computação, e os desenvolvedores Pedro Braga aluno do cursso de engenharia da computação
-             e Andre Torquato aluno de sistemas de informção.
+             e Andre Torquato aluno de sistemas de informção. Também contamos com instituições que apoiam
+             o projeto como o Inove (Nucleo de inovação e empreendedorismo), o Sebrae, e a propria universidade
+
+          </p>
+        </div>
+        <h1 className='text-green900 text-4xl text-left font-bold mt-10'>O que oferecemos?</h1>
+        <div className='text-black text-2xl mt-10 text-justify'>
+          <p>
+            O que oferecemos aos nosos clientes é uma forma facil, pratica e barata de organizar seu negocio
+            trata-se de uma plataforma digital que possui varias funcionalidades para gestão de cooperativas,
+            dentre varias funções podemos listar as principais: controle de estoque, a nossa plataforma oferta 
+            uma forma sisples e facil de gerencia de estoque controlando fluxos de entrada e saida de produtos 
+            além de armazenar essas informções para uso futuro; gestão de Recurssos humanos, outra principal 
+            funcionalidade é a gestão de pessoas atraves da plataforma, dessa maneira é possivel administrar 
+            funcionarios, cooperados e clientes, trazendo uma melhor organização para seu negocio alem de uma 
+            centralização de dados sobre todos envolvidos no seu negocio; controle financeiro, voce tambem pode 
+            controlar as finaças da cooperativa atraves da plataforma, garantindo um controle e conhecimento sobre
+            o fluxo de finaças da cooperativa, como tambem registro de vendas e compras controle de associados, 
+            geração de notas fiscais e comprovantes de pagamentos de salarios, alem de registros de todos os processos
+            que a cooperitiva realizar, nossa plataforma possui suporte para web e mobile sendo stremamente simples de 
+            implantar em qualquer situação sem nesseciade de adicionar ou adiquirir equipamentos. Nosso objetivo é 
+            ajudar todas as coperitivas a aderir a era digital atraves de soluções tecnologicas.
+          </p>
+        </div>
+        <h1 className='text-green900 text-4xl text-left font-bold mt-10'>Qual o nosso diferencial?</h1>
+        <div>
+          <p>
+            
           </p>
         </div>
     </div>
