@@ -44,3 +44,11 @@ body {
   @apply border border-green900;
 }
 
+.title-text {
+  @apply text-green900 text-4xl text-left font-bold mt-10;
+}
+
+.footer {
+  @apply w-screen h-full bg-green700 flex
+}
+

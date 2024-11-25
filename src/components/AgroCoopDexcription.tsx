@@ -4,7 +4,7 @@ const AgroCoopDexcription = () => {
   return (
     <div className='w-screen flex items-center justify-center mt-12'>
     <div className='justify-start w-4/5'>
-        <h1 className='text-green900 text-4xl text-left font-bold'>Quem somos?</h1>
+        <h1 className='title-text'>Quem somos?</h1>
         <div className='text-black text-2xl mt-10 text-justify'>
           <p>A Agro Coop Solutions é uma startup criada por alunos de curssos de graduação da
             Universidade Federal do Ceara, mas precisamente no campus de quixada, que tem como 
@@ -25,7 +25,7 @@ const AgroCoopDexcription = () => {
 
           </p>
         </div>
-        <h1 className='text-green900 text-4xl text-left font-bold mt-10'>O que oferecemos?</h1>
+        <h1 className='title-text'>O que oferecemos?</h1>
         <div className='text-black text-2xl mt-10 text-justify'>
           <p>
             O que oferecemos aos nosos clientes é uma forma facil, pratica e barata de organizar seu negocio
@@ -44,10 +44,10 @@ const AgroCoopDexcription = () => {
             ajudar todas as coperitivas a aderir a era digital atraves de soluções tecnologicas.
           </p>
         </div>
-        <h1 className='text-green900 text-4xl text-left font-bold mt-10'>Qual o nosso diferencial?</h1>
+        <h1 className='title-text'>Qual o nosso diferencial?</h1>
         <div>
           <p>
-            
+            Os nosos diferencias estão principalmente em nossa preucupção com o cliente
           </p>
         </div>
     </div>
