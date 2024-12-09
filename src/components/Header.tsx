@@ -22,6 +22,7 @@ const Header = () => {
 
         <div className='w-full flex justify-end p-8'>
             <CircleUserRound size={32} />
+            <h1>hero section</h1>
         </div>
         
     </div>
